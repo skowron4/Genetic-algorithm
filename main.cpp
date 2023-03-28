@@ -13,7 +13,6 @@ int main() {
     auto stop = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
     cout<<"czas: "<< duration.count()<<"\n";
-
     cout<< "Wynik: "<<geneticAlgorithm.getIBestResult() << "\n";
     cout << "Genotyp: ";
     for (int i = 0; i < geneticAlgorithm.getViBestGenotype().size(); ++i) {
