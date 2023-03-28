@@ -12,7 +12,7 @@ int main() {
     geneticAlgorithm.vRunGA(3333);
     auto stop = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
-//    test
+//    lmao
     cout<<"czas: "<< duration.count()<<"\n";
     cout<< "Wynik: "<<geneticAlgorithm.getIBestResult() << "\n";
     cout << "Genotyp: ";
