@@ -64,7 +64,7 @@ vector<CIndividual> CIndividual::vciCross3(CIndividual &other1, CIndividual &oth
     vector<CIndividual> result;
     result.push_back(CIndividual(genChild1));
     result.push_back(CIndividual(genChild2));
-    result.push_back(CIndividual()); //nie wiem czemu teraz dziala bez tego genotyp child 2 jest giga dlugi
+    result.push_back(CIndividual());
     return std::move(result);
 }
 
